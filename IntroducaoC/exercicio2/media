@@ -1,0 +1,20 @@
+Algoritmo
+Var
+// Seção de Declarações das variáveis 
+Nota1, Nota2, Nota3, Media: real
+
+Inicio
+
+    Escreval("Este programa recebe três notas e calcula a média de um aluno")
+    Escreval("Insira a primeira nota do aluno para calcular a média: ")
+    Leia(Nota1)
+    Escreval("Insira a segunda nota do aluno para calcular a média: ")
+    Leia(Nota2)
+    Escreval("Insira a terceira nota do aluno para calcular a média: ")
+    Leia(Nota3)
+
+    Media <-  (Nota1+Nota2+Nota3) / 3
+
+    Escreval("A média do aluno é: ", Media)
+
+Fimalgoritmo

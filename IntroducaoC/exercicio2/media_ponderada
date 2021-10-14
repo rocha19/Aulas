@@ -1,0 +1,24 @@
+Algoritmo
+Var
+// Seção de Declarações das variáveis 
+Nota1, Nota2, Nota3, Media: real
+peso1, peso2, peso3: inteiro
+
+Inicio
+peso1 <- 2
+peso2 <- 3
+peso3 <- 5
+
+Escreval("Este programa recebe três notas e calcula a média de um aluno")
+Escreval("Insira a primeira nota do aluno para calcular a média: ")
+Leia(Nota1)
+Escreval("Insira a segunda nota do aluno para calcular a média: ")
+Leia(Nota2)
+Escreval("Insira a terceira nota do aluno para calcular a média: ")
+Leia(Nota3)
+
+Media <-  ((Nota1*peso1)+(Nota2*peso2)+(Nota3*peso3)) / (peso1+peso2+peso3)
+
+Escreval("A média ponderada do aluno é: ", Media)
+
+Fimalgoritmo

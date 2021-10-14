@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2>Formulário de cadastro</h2>
+
+    <form action="#" method="GET">
+
+        <fieldset>
+
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" name="nome" id="name" placeholder="Digite seu nome">
+            <br>
+
+            <label for="idade">Idade:</label>
+            <br>
+            <input type="number" name="idade"   id="idade" nim="0" max="200">
+            <br>
+            
+        </fieldset>
+
+        <label for="masc">Masculino</label>
+        <input type="radio" name="sexo" id="masc">
+        <label for="fem">Feminino</label>
+        <input type="radio" name="sexo" id="fem">
+        <br>
+        <br>
+
+        <label for="bike">Bicicleta</label>
+        <input type="checkbox" name="bike" 
+        id="bike">
+        <br>
+        <label for="skate">Skate</label>
+        <input type="checkbox" name="skate">
+        <br>
+        <label for="patins">Patins</label>
+        <input type="checkbox" name="patins" >
+        <br>
+        <br>
+
+        <input type="date" name="calendar">
+        <br>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="usremail" id="email">
+        <br>
+        <br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" nome="senha" id="senha">
+        <br>
+        <br>
+
+        <input type="button" value="Clique" onclick="alert('Boa noite')">
+        <br>
+
+        <input type="submit" value="enviar">
+        <br>
+
+        <input type="reset" value="Resetar">
+        <br>
+        <br>
+
+        <label for="sel">Seleção:</label>
+        <select name="selecionar" id="sel">
+            <option value="vai pro servidor">aparece na tela</option>
+        </select>
+
+    </form>
+</body>
+</html>
