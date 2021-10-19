@@ -7,20 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Titulo</h1>
 
-    <p>Agora sao: {{ now }}</p>
+    <h2>Listagem</h2>
 
     <ul>
-    {% for tansacao in transacoes %}
-
-        {% if transacao == "t1" %}
-            <li><b>{{ tansacao }}</b></li>
-        {% else %}
-            <li>{{ tansacao }}</li>
-        {% endif %}
-
+    {% for transacao in transacoes %}
+        <li>{{ transacao.descricao }} - {{ transacao.data }} - {{ transacao.valor }} - {{transacao.categoria}}</li>
     {% endfor %}
     </ul>
+
+    <a href="{% url 'url_nova' %}">Novo</a>
+
 </body>
 </html>

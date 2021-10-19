@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 class Categoria(models.Model):
     nome = models.CharField(max_length=100)
@@ -7,6 +8,7 @@ class Categoria(models.Model):
 
     def __str__(self):
         return self.nome
+
 
 class Transacao(models.Model):
     data = models.DateTimeField()
@@ -16,7 +18,8 @@ class Transacao(models.Model):
     observacoes = models.TextField(null=True, blank=True)
 
     class Meta:
-        verbose_name_plural = 'Transações'
+        # classe para caracter especial
+        verbose_name_plural = 'Transacoes'
 
     def __str__(self):
         return self.descricao
