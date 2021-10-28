@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aula JavaScript</title>
+    <title>Aula JavaScript 2</title>
     <style>
         body {
             background-color: black;
@@ -21,12 +21,16 @@
     <h1> Olá, mundo!</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore, odio maiores quaerat voluptatem explicabo labore! Minima doloremque modi distinctio labore corporis nesciunt sequi sed et. A delectus beatae dicta!</p>
     <script>
-        // Window.alert('Minha primeira mensagem!')
-        // window.confirm('Está gostando de JS')
-        var nome = window.prompt('Qual é seu nome?')
-        window.alert('É um prazer te conhecer, ' + nome)
-
         
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro numero, '))
+        var s = n1 + n2
+
+        window.alert('A soma dos valores é: ' + s) // Concatenação
+        window.alert(`O aluno tem nota ${s}`) // Templete String
+
+        // Number para String: ntoString ou Strig(n)
+
     </script>
 </body>
 </html>
