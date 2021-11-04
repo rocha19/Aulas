@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura condicional</title>
+</head>
+<body>
+    <button id="botao">Hide</button>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti optio totam amet repellendus nostrum, voluptate incidunt inventore est maxime voluptatem repudiandae ullam recusandae neque, veritatis nobis, eligendi repellat delectus tempore?
+    </p>
+
+    <script>
+
+        var exibe = true
+        var botao = document.getElementById("botao")
+        var paragrafo = document.getElementById("paragrafo")
+
+        function clique()
+        {
+            if (exibe == false)
+            {
+                botao.innerHTML = "Show"
+                paragrafo.style.display = "none"
+
+            }else
+            {
+                botao.innerHTML = "Hide"
+                paragrafo.style.display = "block"
+            }
+
+            exibe = !exibe
+        }
+
+    </script>
+</body>
+</html>
