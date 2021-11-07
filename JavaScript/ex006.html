@@ -1,55 +1,60 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Estudos em DOM</title>
-
+    <title>Document</title>
     <style>
         body
         {
-          background-color: red;
-          color: white;
-          font: normal 18pt Arial;
+            background-color: black;
+            
 
+        }
+        div#area 
+        {
+            font: normal 20pt Arial;
+            background: rgb(42, 139, 42);
+            color: white;
+            width: 200xp;
+            height: 200px;
+            line-height: 200xp;
+            text-align: center;
+            
         }
     </style>
 </head>
 <body>
-    <h1>Iniciando estudos em DOM</h1>
-    <p>Aprendendo <strong>DOM</strong> em JavaScript</p>
-    <p>vou aprender sobre o DOM</p>
-    <div id="msg">Clique aqui</div>
+    <div id="area">
+        Interaja...
+    </div>
 
     <script>
-        /*
-        window.document.write(window.navigator.appName)
-        
-        window.document.write(window.navigator.URL)
-        */
-        var corpo = window.document.body
-        var p1 = window.document.getElementsByTagName('p')[0]
 
-        // window.document.write(`Está escrito assim: ` + p1.innerText)
-        window.document.write(`Está escrito assim: ` + p1.innerHTML)
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
 
-        corpo.style.background = 'black'
-        p1.style.color = 'blue'
+        function clicar()
+        {
+            a.innerText = 'Clicou!'
+            a.style.background = 'red'
+        }
 
-        // var d = window.document.getElementById('msg')
-        var d = window.document.querySelector('div#msg')
-        
+        function entrar()
+        {
+            a.innerText = 'Entrou!'
+            a.style.background = 'yellow'
+        }
 
-        d.style.background = 'green'
-
-        // d.innerText = 'Estou aguardando...'
-        // window.document.getElementById('msg').innerText = 'Olá!'
-
-
-
-
-
+        function sair()
+        {
+            a.innerText = 'Saiu!'
+            a.style.background = 'green'
+        }
     </script>
+    
 </body>
 </html>
