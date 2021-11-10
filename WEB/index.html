@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Produtos</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <nav>
+                <div class="nav-wrapper"></div>
+                    <a href="#" class="brand-logo right">Logo</a>
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Consultas</a></li>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s8">
+            <form>
+                <div class="input-field col s12">
+                    <label for="descrição">Descrição</label>
+                    <input type="text" name="descricao" id="descricao" required>
+                </div>
+
+                <div class="input-field col s12">
+                    <label for="fornecedor">Fornecedor</label>
+                    <input type="text" name="fornecedor" id="fornecedor" >
+                </div>
+
+                <div class="input-field col s12"></div>
+                    <label for="valor">Valor Unitário</label>
+                    <input type="text" name="valor" id="valor">
+                </div>
+
+                <div class="input-field col s12"></div>
+                    <label for="qtd">Quantidade</label>
+                    <input type="number" name="qtd" id="qtd" min="1">
+                </div>
+
+                <button class="btn waves-effect waves-light" type="button" name="action">Cadastrar</button>
+                <button class="btn waves-effect waves-light" type="reset" name="action">Limpar</button>
+            </form>
+        </div>
+
+        <div class="col s2">
+            <h5>Coluna central</h5>
+        </div>
+
+        <div class="col s2">
+            <h5>Coluna Final</h5>
+        </div>
+    </div>
+
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
