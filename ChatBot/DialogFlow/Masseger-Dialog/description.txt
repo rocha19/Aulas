@@ -1,0 +1,16 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "description",
+            "title": "Veja nossas ofertas da semana",
+            "text": [
+              "Abacate - R$ 2,00 - unidade",
+              "Morango - R$ 10,00 - caixa.",
+              "Uva - R$ 15,00 - caixa.",
+              "Banana - R$ 5,00 - duzia."
+            ]
+          }
+        ]
+      ]
+    }

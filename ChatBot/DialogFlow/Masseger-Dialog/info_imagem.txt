@@ -1,0 +1,22 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "info",
+            "title": "Verduras por Delivery",
+            "subtitle": "Temos a maior variedade da Região ! Confira !",
+            "image": {
+              "src": {
+                "rawUrl": "https://cdn.glitch.me/479d43bd-6e33-4621-97ec-5b5f62d999bf%2Ficone.png?v=1636933942448"
+              }
+            },
+            "actionLink": "https://cursos.universidadeglobal.com.br"
+          },
+          {
+            "type": "image",
+            "rawUrl": "https://cdn.glitch.com/55f962ee-0285-462a-b93c-8e187090da4c%2Fverdurasdelivery.jpg?v=1591669968892",
+            "accessibilityText": "Temos as melhores ofertas"
+          }
+        ]
+      ]
+ }

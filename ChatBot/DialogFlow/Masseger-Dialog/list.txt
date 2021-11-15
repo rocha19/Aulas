@@ -1,0 +1,27 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "list",
+            "title": "Rabanete",
+            "subtitle": "Rabanete em Promoção"
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "list",
+            "title": "Cenoura",
+            "subtitle": "Faz bem para os olhos"
+          },
+          {
+            "type": "divider"
+          },
+          {
+            "type": "list",
+            "title": "Pepino",
+            "subtitle": "Vai bem com a sua salada"
+          }
+        ]
+      ]
+    }

@@ -1,0 +1,17 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "accordion",
+            "title": "Formas de Pagamento",
+            "subtitle": "Aceitamos diversas formas de pagamento",
+            "image": {
+              "src": {
+                "rawUrl": "https://example.com/images/logo.png"
+              }
+            },
+            "text": "Visa / Mastercard / Amex / Paypal"
+          }
+        ]
+      ]
+    }

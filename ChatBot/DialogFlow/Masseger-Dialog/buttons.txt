@@ -1,0 +1,49 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "button",
+            "icon": {
+              "type": "",
+              "color": "#FF9800"
+            },
+            "text": "Abacate",
+            "link": "https://pt.wikipedia.org/wiki/Abacate"
+          },
+          {
+            "type": "button",
+            "icon": {
+              "type": "",
+              "color": "#FF9800"
+            },
+            "text": "Morango",
+            "link": "https://pt.wikipedia.org/wiki/Morango"
+          },
+          {
+            "type": "button",
+            "icon": {
+              "type": "",
+              "color": "#FF9800"
+            },
+            "text": "Goiaba",
+            "link": "https://pt.wikipedia.org/wiki/Goiaba"
+          },
+          {
+            "type": "button",
+            "icon": {
+              "type": "",
+              "color": "#FF9800"
+            },
+            "text": "Banana",
+            "link": "https://pt.wikipedia.org/wiki/Banana"
+          }
+        ]
+      ]
+    }
+
+
+
+// https://pt.wikipedia.org/wiki/Abacate
+// https://pt.wikipedia.org/wiki/Morango
+// https://pt.wikipedia.org/wiki/Goiaba
+// https://pt.wikipedia.org/wiki/Banana

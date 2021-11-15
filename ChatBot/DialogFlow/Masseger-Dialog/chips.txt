@@ -1,0 +1,38 @@
+{
+      "richContent": [
+        [
+          {
+            "type": "chips",
+            "options": [
+              {
+                "text": "Visa",
+                "image": {
+                  "src": {
+                    "rawUrl": "https://cdn.glitch.com/55f962ee-0285-462a-b93c-8e187090da4c%2Ficone_visa.png?v=1591671780063"
+                  }
+                },
+                "link": "https://cursos.universidadeglobal.com.br"
+              },
+              {
+                "text": "Mastercard",
+                "image": {
+                  "src": {
+                    "rawUrl": "https://cdn.glitch.com/55f962ee-0285-462a-b93c-8e187090da4c%2Ficone_master.png?v=1591671772060"
+                  }
+                },
+                "link": "https://cursos.universidadeglobal.com.br"
+              },
+              {
+                "text": "Amex",
+                "image": {
+                  "src": {
+                    "rawUrl": "https://cdn.glitch.com/55f962ee-0285-462a-b93c-8e187090da4c%2Ficone_amex.png?v=1591671789227"
+                  }
+                },
+                "link": "https://cursos.universidadeglobal.com.br"
+              }
+            ]
+          }
+        ]
+      ]
+    }
