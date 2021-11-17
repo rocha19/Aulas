@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "petshop-bnll",
+  "private_key_id": "561165e12368d5835f2dd58c297b5f166dc9c2db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCpm8IkGzKQYTfx\nJn2O9ZIsvntdMShyRJtis24ZNzjIfEX1T4sbRzR5xlFrJOuQNSeg16xe/6sfTNAT\nvLgRAiSFsLan+ngK94gKsG3MU2h9MuwvnoJsQWUHnbhGCXqzsDsXQgk9bqF5R/wR\n+fDFfpigXDAvbEhD4t76GPKXc4r0ZGWRfn24qFIbBzlytdnum+DVuh1F21Y/U5Yl\npyqrMcVO+hd1rDW5eOyo484m9o903onsLsPRK4Aw/x039ggf7QzhCoifTLkElcJY\nGrhE8RFx46kD991u/ac8bg3lKCpUDJmG/mHHbyIICmoP2o5I70m/5+4J0k2v4YU5\nhWEhgWMnAgMBAAECggEAFOwqcFLMk4PypzRk08BWZl+fDzlzsFjnRC83OzQVNKIj\n7SWBVv2bKxR8UbfNuU3dVBmW4WcvoF5U4sJqgGqfv8AzYBhlO5EafpsSCF0XrC4e\ndadblmggwuZBZ55evRDV0UIrqqDdmXz4Su1mtq4tvMZyiT8V0Q4JDJgMQQOXVhti\n0FXkr1xDRC1jXMab6pAdhumG0lb552dnF4Nids/ivw9TLDz4M4uDrAkR3O5MgkqG\n38Drw3tVC/Fxt298RGLRQlI6lj/tm9CU3rZb1pYURv1YnuJHJRXfmJtRm9sanmoP\nVnFEW8mIj86pqSU1UQrWpqwRK6KOhUHaE4D0yUJ7NQKBgQDj6Iy6W5W6uUzwqKp8\nDn9J4WG9V2/AisQX2IeQ++yAJ0hAR1EO8suReawPdy9l4LzIJSDkFhueJ9XtC6Ja\ny4Ioo5GRpQo8cX+roe14lqi3P6xmSqnTC1UtxnPd0/Hi51Brf+vfsiE1bLa6nCrG\nuQLbz2EEvJSsnL5dEC9WV3JuZQKBgQC+g5qqm+IDLFGg5LUqwwagdAjnFYSLm5ku\n4wNS39GP+4DQn9MyihQOdRBzfy6dmSphbSFtR1poKYoIOxu3uFnuGXwqd2bDk6qD\n2nla8lGSQf9Jz0Sij/UllFjkfe3MImkQzN4jv/gdjQXWL1c6Y6qC8wWL+hyMtDE4\nvjHa53ecmwKBgQCcBFZSPOADM1a4aL5Mrp/0s5V1SKX36QbUTCaB2fPMxxdu6WNU\nGGHC9MgUzkJkO7UATmp1uayuWBbab1x1S1uO9mpwicq4FfqQRAmMw5Y73Bro67PW\nBawJ6hDnim/MJQ2oiamvOQIC0KlGliGyaHTMhOqlk3MztxmaG7pMIRD1AQKBgQCL\nx1svWffVhCrP9X3GxhiSmQ//HBaHp74YXI8Puw+yqEC20MzQA+b7RICxfNri3oHt\nwXgJCZUXX4LazyNjBGtW+nPTZI+NZ0ZwP1dSlv+qY6m+qcgdzal7zP/7hTl30Ldt\nkCJb8HlGlTV3FHzXZlCwi0XCkdtokLyceU9y4OktiQKBgQDLEFJWERCIOJImGlU2\n2FlCPTOsB4o0dGr0K2WhCqR3PQajZIfLpvPIOGYrwFWGYV7tbPUdWgk74g+J1IZs\no1bmTCRyHmslv+Lqt+nHQmX6QH9WsPs5JuncG0Q4NJU/QEljHU/GaUw+YvyzpPM/\nzrGSgBdDufgseOfbiuiOBNevGw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "petshop-bnll@petshop-bnll.iam.gserviceaccount.com",
+  "client_id": "113014423453474234293",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/petshop-bnll%40petshop-bnll.iam.gserviceaccount.com"
+}

@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+	  "displayName": "curso.chatbot",
+	  "webhookState": "WEBHOOK_STATE_UNSPECIFIED",
+	  "isFallback": false,
+	  "mlDisabled": false,
+	  "trainingPhrases": [
+		    {
+		      "type": "EXAMPLE",
+		      "parts": [
+		        {
+		          "text":"quero saber sobre curso de chatbot "
+		        }  
+		      ]
+		    },
+		    {
+		      "type": "EXAMPLE",
+		      "parts": [
+		        {
+		          "text":" ver curso de chatbot "
+		        }  
+		      ]
+		    }
+
+	  ],
+	  "messages": [ 
+		    {
+		      "text": {
+		        "text": ["Nossos cursos de chatbot estão em nosso portal"]
+		      }
+		    }
+	  ]
+	},
+	{
+	  "displayName": "curso de Machine Learning",
+	  "webhookState": "WEBHOOK_STATE_ENABLED",
+	  "isFallback": false,
+	  "mlDisabled": false,
+	  "trainingPhrases": [
+		    {
+		      "type": "EXAMPLE",
+		      "parts": [
+		        {
+		          "text":" quero aprender reconhecimento  facial "
+		        }  
+		      ]
+		    },
+		    {
+		      "type": "EXAMPLE",
+		      "parts": [
+		        {
+		          "text":" como fazer reconhecimento de objetos "
+		        }  
+		      ]
+		    }
+
+	  ],
+	  "messages": [ 
+		    {
+		      "text": {
+		        "text": ["Nosso curso de Reconhecimento Facial esta em nosso portal"]
+		      }
+		    }
+	  ]
+	}
+  ]
+}
