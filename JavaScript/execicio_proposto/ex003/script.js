@@ -1,4 +1,5 @@
-function carregar() {
+function carregar() 
+{
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new date()
@@ -6,7 +7,7 @@ function carregar() {
     var minuto = data.getMinutes()
     
     msg.innerHTML = `Agora são ${hora}:${minuto} horas.`
-
+    /*
     if (hora >= 0 && hora < 12) {
         //BOM DIA
         img.src = 'img/fotomanha.png'
@@ -21,5 +22,5 @@ function carregar() {
         img.src = 'img/fotonoite.png'
         document.body.style.background = '' 
     }
-
+    */
 }
